@@ -35,7 +35,7 @@ Este script en Python permite gestionar eventos en Google Calendar utilizando la
         5. En el panel de navegación, haz clic en "API y Servicios" > "Credenciales".
         6. Haz clic en "Crear credenciales" y selecciona "ID de cliente de OAuth".
         7. Configura la aplicación como "Otra aplicación de escritorio".
-        8. Descarga el archivo JSON de las credenciales y guárdalo como `credentials.json` en el mismo directorio que el script.
+        8. Descarga el archivo JSON de las credenciales y guárdalo como `client_secret.json` en el mismo directorio que el script.
 
 ## Uso
 
