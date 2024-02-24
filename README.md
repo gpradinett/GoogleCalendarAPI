@@ -27,15 +27,22 @@ Este script en Python permite gestionar eventos en Google Calendar utilizando la
 
 3. **Obtener Credenciales de la API de Google Calendar:**
 
-    - Sigue las instrucciones en [Google Calendar API Python Quickstart](https://developers.google.com/calendar/quickstart).
-    - Descarga el archivo `credentials.json` y colócalo en el mismo directorio que el script.
+    - Sigue los siguientes pasos para obtener las credenciales:
+        1. Accede a [Google Cloud Console](https://console.cloud.google.com/).
+        2. Crea un nuevo proyecto o selecciona uno existente.
+        3. En el panel de navegación, haz clic en "API y Servicios" > "Biblioteca".
+        4. Busca "Google Calendar API" y actívala para tu proyecto.
+        5. En el panel de navegación, haz clic en "API y Servicios" > "Credenciales".
+        6. Haz clic en "Crear credenciales" y selecciona "ID de cliente de OAuth".
+        7. Configura la aplicación como "Otra aplicación de escritorio".
+        8. Descarga el archivo JSON de las credenciales y guárdalo como `credentials.json` en el mismo directorio que el script.
 
 ## Uso
 
 1. **Ejecutar el Script:**
 
     ```bash
-    python GoogleCalendarManager.py
+    python GoogleCalendarIntegration.py
     ```
 
 2. **Autenticación:**
@@ -58,3 +65,4 @@ calendar.list_upcoming_events()
 
 # Crear un nuevo evento de ejemplo
 calendar.create_event("Reunion QA", "2024-02-16T16:30:00-05:00", "2024-02-16T17:30:00-05:00", "America/Lima", ["gp@gmail.com", "fles@lex.pe"])
+
